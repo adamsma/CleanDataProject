@@ -47,4 +47,5 @@ run_analysis <- function() {
 		
 	## write table to txt file
 	write.table(newData, file = "summarized_data.txt", row.name=FALSE)
+	
 }

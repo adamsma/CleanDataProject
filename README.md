@@ -33,4 +33,4 @@ The subset data frame is then converted into a tbl_df and grouped by subject ID 
 created by summarizing the groups by mean. The resulting tbl_df has 180 records (6 activities * 30 test subjects = 180) and
 81 variables (subject id + activity + 79 mean feature values = 81).   
 
-THe final tidy data set is written to the text file "summarized_data.txt" using write.table with row.names = FALSE.
+The final tidy data set is written to the text file "summarized_data.txt" using write.table with row.names = FALSE.
