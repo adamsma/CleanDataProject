@@ -1,4 +1,4 @@
-Codebok for "summarized_data.txt"
+Codebook for "summarized_data.txt"
 ================
 
 1) Subject_ID - identification number for the test subject (1-30)
