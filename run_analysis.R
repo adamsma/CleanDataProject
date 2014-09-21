@@ -41,7 +41,7 @@ run_analysis <- function() {
 	statSubset <- select(comboData, 1:2, contains("mean()"), contains("std()"), -contains("Mean)"), - contains("Mean,"))
 	
 	## create new data set with average for variables by activity and subject
-	 newData <- tbl_df(comboData) %>%
+	 newData <- tbl_df(statSubset) %>%
 		group_by(Subject_ID, Activity) %>%
 		summarise_each(funs(mean))
 		
