@@ -9,7 +9,7 @@ run_analysis <- function() {
 	trainSubPath = "train\\subject_train.txt"
 	
 	testPath = "test\\X_test.txt"
-	testLblPath = "test\\Y_test.txt"
+	testLblPath = "test\\y_test.txt"
 	testSubPath = "test\\subject_test.txt"
 	
 	featPath = "features.txt"
